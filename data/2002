@@ -1,0 +1,66 @@
+---
+- :Datum: '2002-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Tisdag
+  :Dag på året: '1'
+- :Datum: '2002-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Söndag
+  :Dag på året: '6'
+- :Datum: '2002-03-29'
+  :Namn: Långfredagen
+  :Vecka: '13'
+  :Veckodag: Fredag
+  :Dag på året: '88'
+- :Datum: '2002-03-31'
+  :Namn: Påskdagen
+  :Vecka: '13'
+  :Veckodag: Söndag
+  :Dag på året: '90'
+- :Datum: '2002-04-01'
+  :Namn: Annandag påsk
+  :Vecka: '14'
+  :Veckodag: Måndag
+  :Dag på året: '91'
+- :Datum: '2002-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Onsdag
+  :Dag på året: '121'
+- :Datum: '2002-05-09'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '19'
+  :Veckodag: Torsdag
+  :Dag på året: '129'
+- :Datum: '2002-05-19'
+  :Namn: Pingstdagen
+  :Vecka: '20'
+  :Veckodag: Söndag
+  :Dag på året: '139'
+- :Datum: '2002-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Torsdag
+  :Dag på året: '157'
+- :Datum: '2002-06-22'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '173'
+- :Datum: '2002-11-02'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '306'
+- :Datum: '2002-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Onsdag
+  :Dag på året: '359'
+- :Datum: '2002-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Torsdag
+  :Dag på året: '360'

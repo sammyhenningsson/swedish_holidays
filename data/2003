@@ -1,0 +1,66 @@
+---
+- :Datum: '2003-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Onsdag
+  :Dag på året: '1'
+- :Datum: '2003-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '2'
+  :Veckodag: Måndag
+  :Dag på året: '6'
+- :Datum: '2003-04-18'
+  :Namn: Långfredagen
+  :Vecka: '16'
+  :Veckodag: Fredag
+  :Dag på året: '108'
+- :Datum: '2003-04-20'
+  :Namn: Påskdagen
+  :Vecka: '16'
+  :Veckodag: Söndag
+  :Dag på året: '110'
+- :Datum: '2003-04-21'
+  :Namn: Annandag påsk
+  :Vecka: '17'
+  :Veckodag: Måndag
+  :Dag på året: '111'
+- :Datum: '2003-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Torsdag
+  :Dag på året: '121'
+- :Datum: '2003-05-29'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '22'
+  :Veckodag: Torsdag
+  :Dag på året: '149'
+- :Datum: '2003-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Fredag
+  :Dag på året: '157'
+- :Datum: '2003-06-08'
+  :Namn: Pingstdagen
+  :Vecka: '23'
+  :Veckodag: Söndag
+  :Dag på året: '159'
+- :Datum: '2003-06-21'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '172'
+- :Datum: '2003-11-01'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '305'
+- :Datum: '2003-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Torsdag
+  :Dag på året: '359'
+- :Datum: '2003-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Fredag
+  :Dag på året: '360'

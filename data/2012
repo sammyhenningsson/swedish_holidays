@@ -1,0 +1,66 @@
+---
+- :Datum: '2012-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '52'
+  :Veckodag: Söndag
+  :Dag på året: '1'
+- :Datum: '2012-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Fredag
+  :Dag på året: '6'
+- :Datum: '2012-04-06'
+  :Namn: Långfredagen
+  :Vecka: '14'
+  :Veckodag: Fredag
+  :Dag på året: '97'
+- :Datum: '2012-04-08'
+  :Namn: Påskdagen
+  :Vecka: '14'
+  :Veckodag: Söndag
+  :Dag på året: '99'
+- :Datum: '2012-04-09'
+  :Namn: Annandag påsk
+  :Vecka: '15'
+  :Veckodag: Måndag
+  :Dag på året: '100'
+- :Datum: '2012-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Tisdag
+  :Dag på året: '122'
+- :Datum: '2012-05-17'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '20'
+  :Veckodag: Torsdag
+  :Dag på året: '138'
+- :Datum: '2012-05-27'
+  :Namn: Pingstdagen
+  :Vecka: '21'
+  :Veckodag: Söndag
+  :Dag på året: '148'
+- :Datum: '2012-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Onsdag
+  :Dag på året: '158'
+- :Datum: '2012-06-23'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '175'
+- :Datum: '2012-11-03'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '308'
+- :Datum: '2012-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Tisdag
+  :Dag på året: '360'
+- :Datum: '2012-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Onsdag
+  :Dag på året: '361'

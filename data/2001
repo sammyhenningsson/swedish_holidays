@@ -1,0 +1,66 @@
+---
+- :Datum: '2001-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Måndag
+  :Dag på året: '1'
+- :Datum: '2001-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Lördag
+  :Dag på året: '6'
+- :Datum: '2001-04-13'
+  :Namn: Långfredagen
+  :Vecka: '15'
+  :Veckodag: Fredag
+  :Dag på året: '103'
+- :Datum: '2001-04-15'
+  :Namn: Påskdagen
+  :Vecka: '15'
+  :Veckodag: Söndag
+  :Dag på året: '105'
+- :Datum: '2001-04-16'
+  :Namn: Annandag påsk
+  :Vecka: '16'
+  :Veckodag: Måndag
+  :Dag på året: '106'
+- :Datum: '2001-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Tisdag
+  :Dag på året: '121'
+- :Datum: '2001-05-24'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '21'
+  :Veckodag: Torsdag
+  :Dag på året: '144'
+- :Datum: '2001-06-03'
+  :Namn: Pingstdagen
+  :Vecka: '22'
+  :Veckodag: Söndag
+  :Dag på året: '154'
+- :Datum: '2001-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Onsdag
+  :Dag på året: '157'
+- :Datum: '2001-06-23'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '174'
+- :Datum: '2001-11-03'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '307'
+- :Datum: '2001-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Tisdag
+  :Dag på året: '359'
+- :Datum: '2001-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Onsdag
+  :Dag på året: '360'

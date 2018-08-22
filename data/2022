@@ -1,0 +1,66 @@
+---
+- :Datum: '2022-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '52'
+  :Veckodag: Lördag
+  :Dag på året: '1'
+- :Datum: '2022-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Torsdag
+  :Dag på året: '6'
+- :Datum: '2022-04-15'
+  :Namn: Långfredagen
+  :Vecka: '15'
+  :Veckodag: Fredag
+  :Dag på året: '105'
+- :Datum: '2022-04-17'
+  :Namn: Påskdagen
+  :Vecka: '15'
+  :Veckodag: Söndag
+  :Dag på året: '107'
+- :Datum: '2022-04-18'
+  :Namn: Annandag påsk
+  :Vecka: '16'
+  :Veckodag: Måndag
+  :Dag på året: '108'
+- :Datum: '2022-05-01'
+  :Namn: Första maj
+  :Vecka: '17'
+  :Veckodag: Söndag
+  :Dag på året: '121'
+- :Datum: '2022-05-26'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '21'
+  :Veckodag: Torsdag
+  :Dag på året: '146'
+- :Datum: '2022-06-05'
+  :Namn: Pingstdagen
+  :Vecka: '22'
+  :Veckodag: Söndag
+  :Dag på året: '156'
+- :Datum: '2022-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Måndag
+  :Dag på året: '157'
+- :Datum: '2022-06-25'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '176'
+- :Datum: '2022-11-05'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '309'
+- :Datum: '2022-12-25'
+  :Namn: Juldagen
+  :Vecka: '51'
+  :Veckodag: Söndag
+  :Dag på året: '359'
+- :Datum: '2022-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Måndag
+  :Dag på året: '360'

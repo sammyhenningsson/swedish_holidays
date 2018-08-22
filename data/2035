@@ -1,0 +1,66 @@
+---
+- :Datum: '2035-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Måndag
+  :Dag på året: '1'
+- :Datum: '2035-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Lördag
+  :Dag på året: '6'
+- :Datum: '2035-03-23'
+  :Namn: Långfredagen
+  :Vecka: '12'
+  :Veckodag: Fredag
+  :Dag på året: '82'
+- :Datum: '2035-03-25'
+  :Namn: Påskdagen
+  :Vecka: '12'
+  :Veckodag: Söndag
+  :Dag på året: '84'
+- :Datum: '2035-03-26'
+  :Namn: Annandag påsk
+  :Vecka: '13'
+  :Veckodag: Måndag
+  :Dag på året: '85'
+- :Datum: '2035-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Tisdag
+  :Dag på året: '121'
+- :Datum: '2035-05-03'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '18'
+  :Veckodag: Torsdag
+  :Dag på året: '123'
+- :Datum: '2035-05-13'
+  :Namn: Pingstdagen
+  :Vecka: '19'
+  :Veckodag: Söndag
+  :Dag på året: '133'
+- :Datum: '2035-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Onsdag
+  :Dag på året: '157'
+- :Datum: '2035-06-23'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '174'
+- :Datum: '2035-11-03'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '307'
+- :Datum: '2035-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Tisdag
+  :Dag på året: '359'
+- :Datum: '2035-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Onsdag
+  :Dag på året: '360'

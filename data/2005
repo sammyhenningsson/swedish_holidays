@@ -1,0 +1,66 @@
+---
+- :Datum: '2005-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '53'
+  :Veckodag: Lördag
+  :Dag på året: '1'
+- :Datum: '2005-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Torsdag
+  :Dag på året: '6'
+- :Datum: '2005-03-25'
+  :Namn: Långfredagen
+  :Vecka: '12'
+  :Veckodag: Fredag
+  :Dag på året: '84'
+- :Datum: '2005-03-27'
+  :Namn: Påskdagen
+  :Vecka: '12'
+  :Veckodag: Söndag
+  :Dag på året: '86'
+- :Datum: '2005-03-28'
+  :Namn: Annandag påsk
+  :Vecka: '13'
+  :Veckodag: Måndag
+  :Dag på året: '87'
+- :Datum: '2005-05-01'
+  :Namn: Första maj
+  :Vecka: '17'
+  :Veckodag: Söndag
+  :Dag på året: '121'
+- :Datum: '2005-05-05'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '18'
+  :Veckodag: Torsdag
+  :Dag på året: '125'
+- :Datum: '2005-05-15'
+  :Namn: Pingstdagen
+  :Vecka: '19'
+  :Veckodag: Söndag
+  :Dag på året: '135'
+- :Datum: '2005-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Måndag
+  :Dag på året: '157'
+- :Datum: '2005-06-25'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '176'
+- :Datum: '2005-11-05'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '309'
+- :Datum: '2005-12-25'
+  :Namn: Juldagen
+  :Vecka: '51'
+  :Veckodag: Söndag
+  :Dag på året: '359'
+- :Datum: '2005-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Måndag
+  :Dag på året: '360'

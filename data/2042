@@ -1,0 +1,66 @@
+---
+- :Datum: '2042-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Onsdag
+  :Dag på året: '1'
+- :Datum: '2042-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '2'
+  :Veckodag: Måndag
+  :Dag på året: '6'
+- :Datum: '2042-04-04'
+  :Namn: Långfredagen
+  :Vecka: '14'
+  :Veckodag: Fredag
+  :Dag på året: '94'
+- :Datum: '2042-04-06'
+  :Namn: Påskdagen
+  :Vecka: '14'
+  :Veckodag: Söndag
+  :Dag på året: '96'
+- :Datum: '2042-04-07'
+  :Namn: Annandag påsk
+  :Vecka: '15'
+  :Veckodag: Måndag
+  :Dag på året: '97'
+- :Datum: '2042-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Torsdag
+  :Dag på året: '121'
+- :Datum: '2042-05-15'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '20'
+  :Veckodag: Torsdag
+  :Dag på året: '135'
+- :Datum: '2042-05-25'
+  :Namn: Pingstdagen
+  :Vecka: '21'
+  :Veckodag: Söndag
+  :Dag på året: '145'
+- :Datum: '2042-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Fredag
+  :Dag på året: '157'
+- :Datum: '2042-06-21'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '172'
+- :Datum: '2042-11-01'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '305'
+- :Datum: '2042-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Torsdag
+  :Dag på året: '359'
+- :Datum: '2042-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Fredag
+  :Dag på året: '360'

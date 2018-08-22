@@ -1,0 +1,66 @@
+---
+- :Datum: '2036-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Tisdag
+  :Dag på året: '1'
+- :Datum: '2036-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Söndag
+  :Dag på året: '6'
+- :Datum: '2036-04-11'
+  :Namn: Långfredagen
+  :Vecka: '15'
+  :Veckodag: Fredag
+  :Dag på året: '102'
+- :Datum: '2036-04-13'
+  :Namn: Påskdagen
+  :Vecka: '15'
+  :Veckodag: Söndag
+  :Dag på året: '104'
+- :Datum: '2036-04-14'
+  :Namn: Annandag påsk
+  :Vecka: '16'
+  :Veckodag: Måndag
+  :Dag på året: '105'
+- :Datum: '2036-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Torsdag
+  :Dag på året: '122'
+- :Datum: '2036-05-22'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '21'
+  :Veckodag: Torsdag
+  :Dag på året: '143'
+- :Datum: '2036-06-01'
+  :Namn: Pingstdagen
+  :Vecka: '22'
+  :Veckodag: Söndag
+  :Dag på året: '153'
+- :Datum: '2036-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Fredag
+  :Dag på året: '158'
+- :Datum: '2036-06-21'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '173'
+- :Datum: '2036-11-01'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '306'
+- :Datum: '2036-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Torsdag
+  :Dag på året: '360'
+- :Datum: '2036-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Fredag
+  :Dag på året: '361'

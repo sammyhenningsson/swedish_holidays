@@ -1,0 +1,66 @@
+---
+- :Datum: '2020-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Onsdag
+  :Dag på året: '1'
+- :Datum: '2020-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '2'
+  :Veckodag: Måndag
+  :Dag på året: '6'
+- :Datum: '2020-04-10'
+  :Namn: Långfredagen
+  :Vecka: '15'
+  :Veckodag: Fredag
+  :Dag på året: '101'
+- :Datum: '2020-04-12'
+  :Namn: Påskdagen
+  :Vecka: '15'
+  :Veckodag: Söndag
+  :Dag på året: '103'
+- :Datum: '2020-04-13'
+  :Namn: Annandag påsk
+  :Vecka: '16'
+  :Veckodag: Måndag
+  :Dag på året: '104'
+- :Datum: '2020-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Fredag
+  :Dag på året: '122'
+- :Datum: '2020-05-21'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '21'
+  :Veckodag: Torsdag
+  :Dag på året: '142'
+- :Datum: '2020-05-31'
+  :Namn: Pingstdagen
+  :Vecka: '22'
+  :Veckodag: Söndag
+  :Dag på året: '152'
+- :Datum: '2020-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Lördag
+  :Dag på året: '158'
+- :Datum: '2020-06-20'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '172'
+- :Datum: '2020-10-31'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '305'
+- :Datum: '2020-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Fredag
+  :Dag på året: '360'
+- :Datum: '2020-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Lördag
+  :Dag på året: '361'

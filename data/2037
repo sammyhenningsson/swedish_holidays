@@ -1,0 +1,66 @@
+---
+- :Datum: '2037-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '1'
+  :Veckodag: Torsdag
+  :Dag på året: '1'
+- :Datum: '2037-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '2'
+  :Veckodag: Tisdag
+  :Dag på året: '6'
+- :Datum: '2037-04-03'
+  :Namn: Långfredagen
+  :Vecka: '14'
+  :Veckodag: Fredag
+  :Dag på året: '93'
+- :Datum: '2037-04-05'
+  :Namn: Påskdagen
+  :Vecka: '14'
+  :Veckodag: Söndag
+  :Dag på året: '95'
+- :Datum: '2037-04-06'
+  :Namn: Annandag påsk
+  :Vecka: '15'
+  :Veckodag: Måndag
+  :Dag på året: '96'
+- :Datum: '2037-05-01'
+  :Namn: Första maj
+  :Vecka: '18'
+  :Veckodag: Fredag
+  :Dag på året: '121'
+- :Datum: '2037-05-14'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '20'
+  :Veckodag: Torsdag
+  :Dag på året: '134'
+- :Datum: '2037-05-24'
+  :Namn: Pingstdagen
+  :Vecka: '21'
+  :Veckodag: Söndag
+  :Dag på året: '144'
+- :Datum: '2037-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '23'
+  :Veckodag: Lördag
+  :Dag på året: '157'
+- :Datum: '2037-06-20'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '171'
+- :Datum: '2037-10-31'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '304'
+- :Datum: '2037-12-25'
+  :Namn: Juldagen
+  :Vecka: '52'
+  :Veckodag: Fredag
+  :Dag på året: '359'
+- :Datum: '2037-12-26'
+  :Namn: Annandag jul
+  :Vecka: '52'
+  :Veckodag: Lördag
+  :Dag på året: '360'

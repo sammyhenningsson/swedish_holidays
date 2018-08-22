@@ -1,0 +1,66 @@
+---
+- :Datum: '2010-01-01'
+  :Namn: Nyårsdagen
+  :Vecka: '53'
+  :Veckodag: Fredag
+  :Dag på året: '1'
+- :Datum: '2010-01-06'
+  :Namn: Trettondedag jul
+  :Vecka: '1'
+  :Veckodag: Onsdag
+  :Dag på året: '6'
+- :Datum: '2010-04-02'
+  :Namn: Långfredagen
+  :Vecka: '13'
+  :Veckodag: Fredag
+  :Dag på året: '92'
+- :Datum: '2010-04-04'
+  :Namn: Påskdagen
+  :Vecka: '13'
+  :Veckodag: Söndag
+  :Dag på året: '94'
+- :Datum: '2010-04-05'
+  :Namn: Annandag påsk
+  :Vecka: '14'
+  :Veckodag: Måndag
+  :Dag på året: '95'
+- :Datum: '2010-05-01'
+  :Namn: Första maj
+  :Vecka: '17'
+  :Veckodag: Lördag
+  :Dag på året: '121'
+- :Datum: '2010-05-13'
+  :Namn: Kristi himmelfärdsdag
+  :Vecka: '19'
+  :Veckodag: Torsdag
+  :Dag på året: '133'
+- :Datum: '2010-05-23'
+  :Namn: Pingstdagen
+  :Vecka: '20'
+  :Veckodag: Söndag
+  :Dag på året: '143'
+- :Datum: '2010-06-06'
+  :Namn: Sveriges nationaldag
+  :Vecka: '22'
+  :Veckodag: Söndag
+  :Dag på året: '157'
+- :Datum: '2010-06-26'
+  :Namn: Midsommar
+  :Vecka: '25'
+  :Veckodag: Lördag
+  :Dag på året: '177'
+- :Datum: '2010-11-06'
+  :Namn: Alla helgons dag
+  :Vecka: '44'
+  :Veckodag: Lördag
+  :Dag på året: '310'
+- :Datum: '2010-12-25'
+  :Namn: Juldagen
+  :Vecka: '51'
+  :Veckodag: Lördag
+  :Dag på året: '359'
+- :Datum: '2010-12-26'
+  :Namn: Annandag jul
+  :Vecka: '51'
+  :Veckodag: Söndag
+  :Dag på året: '360'
