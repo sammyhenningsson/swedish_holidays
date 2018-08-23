@@ -13,14 +13,13 @@ module SwedishHolidays
 
     class << self
       def holiday?(date)
-        load(date.year)
         !find(date).nil?
       end
 
       def find(date)
         year = date.year
         load(year)
-        loaded[year.to_i][date.yday]
+        loaded[year][date.yday]
       end
 
       def each(year = Date.today.year)
