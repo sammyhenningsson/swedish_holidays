@@ -1,61 +1,61 @@
 ---
-- :Datum: '2008-01-01'
-  :Namn: Nyårsdagen
-  :Vecka: '1'
-  :Veckodag: Tisdag
-  :Dag på året: '1'
-- :Datum: '2008-01-06'
-  :Namn: Trettondedag jul
-  :Vecka: '1'
-  :Veckodag: Söndag
-  :Dag på året: '6'
-- :Datum: '2008-03-21'
-  :Namn: Långfredagen
-  :Vecka: '12'
-  :Veckodag: Fredag
-  :Dag på året: '81'
-- :Datum: '2008-03-23'
-  :Namn: Påskdagen
-  :Vecka: '12'
-  :Veckodag: Söndag
-  :Dag på året: '83'
-- :Datum: '2008-03-24'
-  :Namn: Annandag påsk
-  :Vecka: '13'
-  :Veckodag: Måndag
-  :Dag på året: '84'
-- :Datum: '2008-05-01'
-  :Namn: Första maj
-  :Vecka: '18'
-  :Veckodag: Torsdag
-  :Dag på året: '122'
-- :Datum: '2008-05-11'
-  :Namn: Pingstdagen
-  :Vecka: '19'
-  :Veckodag: Söndag
-  :Dag på året: '132'
-- :Datum: '2008-06-06'
-  :Namn: Sveriges nationaldag
-  :Vecka: '23'
-  :Veckodag: Fredag
-  :Dag på året: '158'
-- :Datum: '2008-06-21'
-  :Namn: Midsommar
-  :Vecka: '25'
-  :Veckodag: Lördag
-  :Dag på året: '173'
-- :Datum: '2008-11-01'
-  :Namn: Alla helgons dag
-  :Vecka: '44'
-  :Veckodag: Lördag
-  :Dag på året: '306'
-- :Datum: '2008-12-25'
-  :Namn: Juldagen
-  :Vecka: '52'
-  :Veckodag: Torsdag
-  :Dag på året: '360'
-- :Datum: '2008-12-26'
-  :Namn: Annandag jul
-  :Vecka: '52'
-  :Veckodag: Fredag
-  :Dag på året: '361'
+- :datum: '2008-01-01'
+  :namn: Nyårsdagen
+  :vecka: '1'
+  :veckodag: Tisdag
+  :dag på året: '1'
+- :datum: '2008-01-06'
+  :namn: Trettondedag jul
+  :vecka: '1'
+  :veckodag: Söndag
+  :dag på året: '6'
+- :datum: '2008-03-21'
+  :namn: Långfredagen
+  :vecka: '12'
+  :veckodag: Fredag
+  :dag på året: '81'
+- :datum: '2008-03-23'
+  :namn: Påskdagen
+  :vecka: '12'
+  :veckodag: Söndag
+  :dag på året: '83'
+- :datum: '2008-03-24'
+  :namn: Annandag påsk
+  :vecka: '13'
+  :veckodag: Måndag
+  :dag på året: '84'
+- :datum: '2008-05-01'
+  :namn: Första maj
+  :vecka: '18'
+  :veckodag: Torsdag
+  :dag på året: '122'
+- :datum: '2008-05-11'
+  :namn: Pingstdagen
+  :vecka: '19'
+  :veckodag: Söndag
+  :dag på året: '132'
+- :datum: '2008-06-06'
+  :namn: Sveriges nationaldag
+  :vecka: '23'
+  :veckodag: Fredag
+  :dag på året: '158'
+- :datum: '2008-06-21'
+  :namn: Midsommar
+  :vecka: '25'
+  :veckodag: Lördag
+  :dag på året: '173'
+- :datum: '2008-11-01'
+  :namn: Alla helgons dag
+  :vecka: '44'
+  :veckodag: Lördag
+  :dag på året: '306'
+- :datum: '2008-12-25'
+  :namn: Juldagen
+  :vecka: '52'
+  :veckodag: Torsdag
+  :dag på året: '360'
+- :datum: '2008-12-26'
+  :namn: Annandag jul
+  :vecka: '52'
+  :veckodag: Fredag
+  :dag på året: '361'

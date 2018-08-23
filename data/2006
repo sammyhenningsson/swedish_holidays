@@ -1,66 +1,66 @@
 ---
-- :Datum: '2006-01-01'
-  :Namn: Nyårsdagen
-  :Vecka: '52'
-  :Veckodag: Söndag
-  :Dag på året: '1'
-- :Datum: '2006-01-06'
-  :Namn: Trettondedag jul
-  :Vecka: '1'
-  :Veckodag: Fredag
-  :Dag på året: '6'
-- :Datum: '2006-04-14'
-  :Namn: Långfredagen
-  :Vecka: '15'
-  :Veckodag: Fredag
-  :Dag på året: '104'
-- :Datum: '2006-04-16'
-  :Namn: Påskdagen
-  :Vecka: '15'
-  :Veckodag: Söndag
-  :Dag på året: '106'
-- :Datum: '2006-04-17'
-  :Namn: Annandag påsk
-  :Vecka: '16'
-  :Veckodag: Måndag
-  :Dag på året: '107'
-- :Datum: '2006-05-01'
-  :Namn: Första maj
-  :Vecka: '18'
-  :Veckodag: Måndag
-  :Dag på året: '121'
-- :Datum: '2006-05-25'
-  :Namn: Kristi himmelfärdsdag
-  :Vecka: '21'
-  :Veckodag: Torsdag
-  :Dag på året: '145'
-- :Datum: '2006-06-04'
-  :Namn: Pingstdagen
-  :Vecka: '22'
-  :Veckodag: Söndag
-  :Dag på året: '155'
-- :Datum: '2006-06-06'
-  :Namn: Sveriges nationaldag
-  :Vecka: '23'
-  :Veckodag: Tisdag
-  :Dag på året: '157'
-- :Datum: '2006-06-24'
-  :Namn: Midsommar
-  :Vecka: '25'
-  :Veckodag: Lördag
-  :Dag på året: '175'
-- :Datum: '2006-11-04'
-  :Namn: Alla helgons dag
-  :Vecka: '44'
-  :Veckodag: Lördag
-  :Dag på året: '308'
-- :Datum: '2006-12-25'
-  :Namn: Juldagen
-  :Vecka: '52'
-  :Veckodag: Måndag
-  :Dag på året: '359'
-- :Datum: '2006-12-26'
-  :Namn: Annandag jul
-  :Vecka: '52'
-  :Veckodag: Tisdag
-  :Dag på året: '360'
+- :datum: '2006-01-01'
+  :namn: Nyårsdagen
+  :vecka: '52'
+  :veckodag: Söndag
+  :dag på året: '1'
+- :datum: '2006-01-06'
+  :namn: Trettondedag jul
+  :vecka: '1'
+  :veckodag: Fredag
+  :dag på året: '6'
+- :datum: '2006-04-14'
+  :namn: Långfredagen
+  :vecka: '15'
+  :veckodag: Fredag
+  :dag på året: '104'
+- :datum: '2006-04-16'
+  :namn: Påskdagen
+  :vecka: '15'
+  :veckodag: Söndag
+  :dag på året: '106'
+- :datum: '2006-04-17'
+  :namn: Annandag påsk
+  :vecka: '16'
+  :veckodag: Måndag
+  :dag på året: '107'
+- :datum: '2006-05-01'
+  :namn: Första maj
+  :vecka: '18'
+  :veckodag: Måndag
+  :dag på året: '121'
+- :datum: '2006-05-25'
+  :namn: Kristi himmelfärdsdag
+  :vecka: '21'
+  :veckodag: Torsdag
+  :dag på året: '145'
+- :datum: '2006-06-04'
+  :namn: Pingstdagen
+  :vecka: '22'
+  :veckodag: Söndag
+  :dag på året: '155'
+- :datum: '2006-06-06'
+  :namn: Sveriges nationaldag
+  :vecka: '23'
+  :veckodag: Tisdag
+  :dag på året: '157'
+- :datum: '2006-06-24'
+  :namn: Midsommar
+  :vecka: '25'
+  :veckodag: Lördag
+  :dag på året: '175'
+- :datum: '2006-11-04'
+  :namn: Alla helgons dag
+  :vecka: '44'
+  :veckodag: Lördag
+  :dag på året: '308'
+- :datum: '2006-12-25'
+  :namn: Juldagen
+  :vecka: '52'
+  :veckodag: Måndag
+  :dag på året: '359'
+- :datum: '2006-12-26'
+  :namn: Annandag jul
+  :vecka: '52'
+  :veckodag: Tisdag
+  :dag på året: '360'

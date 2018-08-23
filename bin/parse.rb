@@ -44,7 +44,7 @@ class Parser
 
   def add_headers(node)
     return unless @headers.empty?
-    @headers = node.map { |th| th.content.strip.to_sym }
+    @headers = node.map { |th| th.content.strip.downcase.to_sym }
   end
 
   def add_data(node)
@@ -67,14 +67,19 @@ class Parser
   end
 end
 
+def parse(year)
+  parser = Parser.new(year)
+  parser.parse
+  parser.write
+rescue Parser::Error => e
+  puts e.message
+  exit 1
+end
+
 if File.expand_path($PROGRAM_NAME) == File.expand_path(__FILE__)
-  begin
-    year = ARGV[0]
-    parser = Parser.new(year)
-    parser.parse
-    parser.write
-  rescue Parser::Error => e
-    puts e.message
-    exit 1
+  if ARGV[0] == 'all'
+    Dir['tmp_files/*'].each { |file| parse File.basename(file) }
+  else
+    parse(ARGV[0])
   end
 end

@@ -1,61 +1,61 @@
 ---
-- :Datum: '2049-01-01'
-  :Namn: Nyårsdagen
-  :Vecka: '53'
-  :Veckodag: Fredag
-  :Dag på året: '1'
-- :Datum: '2049-01-06'
-  :Namn: Trettondedag jul
-  :Vecka: '1'
-  :Veckodag: Onsdag
-  :Dag på året: '6'
-- :Datum: '2049-04-16'
-  :Namn: Långfredagen
-  :Vecka: '15'
-  :Veckodag: Fredag
-  :Dag på året: '106'
-- :Datum: '2049-04-18'
-  :Namn: Påskdagen
-  :Vecka: '15'
-  :Veckodag: Söndag
-  :Dag på året: '108'
-- :Datum: '2049-04-19'
-  :Namn: Annandag påsk
-  :Vecka: '16'
-  :Veckodag: Måndag
-  :Dag på året: '109'
-- :Datum: '2049-05-01'
-  :Namn: Första maj
-  :Vecka: '17'
-  :Veckodag: Lördag
-  :Dag på året: '121'
-- :Datum: '2049-05-27'
-  :Namn: Kristi himmelfärdsdag
-  :Vecka: '21'
-  :Veckodag: Torsdag
-  :Dag på året: '147'
-- :Datum: '2049-06-06'
-  :Namn: Pingstdagen
-  :Vecka: '22'
-  :Veckodag: Söndag
-  :Dag på året: '157'
-- :Datum: '2049-06-26'
-  :Namn: Midsommar
-  :Vecka: '25'
-  :Veckodag: Lördag
-  :Dag på året: '177'
-- :Datum: '2049-11-06'
-  :Namn: Alla helgons dag
-  :Vecka: '44'
-  :Veckodag: Lördag
-  :Dag på året: '310'
-- :Datum: '2049-12-25'
-  :Namn: Juldagen
-  :Vecka: '51'
-  :Veckodag: Lördag
-  :Dag på året: '359'
-- :Datum: '2049-12-26'
-  :Namn: Annandag jul
-  :Vecka: '51'
-  :Veckodag: Söndag
-  :Dag på året: '360'
+- :datum: '2049-01-01'
+  :namn: Nyårsdagen
+  :vecka: '53'
+  :veckodag: Fredag
+  :dag på året: '1'
+- :datum: '2049-01-06'
+  :namn: Trettondedag jul
+  :vecka: '1'
+  :veckodag: Onsdag
+  :dag på året: '6'
+- :datum: '2049-04-16'
+  :namn: Långfredagen
+  :vecka: '15'
+  :veckodag: Fredag
+  :dag på året: '106'
+- :datum: '2049-04-18'
+  :namn: Påskdagen
+  :vecka: '15'
+  :veckodag: Söndag
+  :dag på året: '108'
+- :datum: '2049-04-19'
+  :namn: Annandag påsk
+  :vecka: '16'
+  :veckodag: Måndag
+  :dag på året: '109'
+- :datum: '2049-05-01'
+  :namn: Första maj
+  :vecka: '17'
+  :veckodag: Lördag
+  :dag på året: '121'
+- :datum: '2049-05-27'
+  :namn: Kristi himmelfärdsdag
+  :vecka: '21'
+  :veckodag: Torsdag
+  :dag på året: '147'
+- :datum: '2049-06-06'
+  :namn: Pingstdagen
+  :vecka: '22'
+  :veckodag: Söndag
+  :dag på året: '157'
+- :datum: '2049-06-26'
+  :namn: Midsommar
+  :vecka: '25'
+  :veckodag: Lördag
+  :dag på året: '177'
+- :datum: '2049-11-06'
+  :namn: Alla helgons dag
+  :vecka: '44'
+  :veckodag: Lördag
+  :dag på året: '310'
+- :datum: '2049-12-25'
+  :namn: Juldagen
+  :vecka: '51'
+  :veckodag: Lördag
+  :dag på året: '359'
+- :datum: '2049-12-26'
+  :namn: Annandag jul
+  :vecka: '51'
+  :veckodag: Söndag
+  :dag på året: '360'
