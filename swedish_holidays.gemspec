@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |gem|
   gem.name        = 'swedish_holidays'
-  gem.version     = '1.0.1'
+  gem.version     = '1.0.2'
   gem.summary     = "Swedish holidays"
   gem.description = "Check if a date is a swedish holiday"
   gem.authors     = ["Sammy Henningsson"] 
@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.homepage    = "https://github.com/sammyhenningsson/swedish_holidays"
   gem.license     = "MIT"
 
-  gem.files         = Dir['lib/**/*rb']
-  gem.require_paths = ["lib"]
+  gem.files         = Dir['lib/**/*rb'] + Dir['data/*']
+  gem.require_paths = ['lib', 'data']
 
   gem.required_ruby_version = '>= 2.3'
   gem.add_development_dependency 'rake', '~> 12.0'

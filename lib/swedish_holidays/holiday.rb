@@ -3,7 +3,7 @@ require 'date'
 require 'forwardable'
 
 module SwedishHolidays
-  DATA_DIR = 'data'.freeze
+  DATA_DIR = File.expand_path('../../../data', __FILE__).freeze
 
   class Holiday
     extend Forwardable
