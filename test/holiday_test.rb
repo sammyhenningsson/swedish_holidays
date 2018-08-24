@@ -3,6 +3,7 @@ require 'test_helper'
 module SwedishHolidays
   describe Holiday do
     let(:new_year) { Date.new(2018, 1, 1) }
+    let(:easter_eve) { Date.new(2018, 3, 31) }
     let(:non_holiday) { Date.new(2018, 1, 2) }
     let(:unknown_date) { Date.new(1800, 1, 1) }
 
@@ -11,13 +12,21 @@ module SwedishHolidays
     end
 
     it '#holiday? returns false when date is not a holiday' do
-      assert_equal(false, Holiday.holiday?(non_holiday))
+      assert_equal(false, Holiday.holiday?(easter_eve))
+    end
+
+    it '#holiday? returns true when date is considered a holiday and real: false' do
+      assert_equal(true, Holiday.holiday?(easter_eve, real: false))
+    end
+
+    it '#holiday? returns false when date is not a holiday and real: false' do
+      assert_equal(false, Holiday.holiday?(non_holiday, real: false))
     end
 
     it('loads all holidays for the given year') do
       Holiday.find(new_year)
       assert_equal(
-        HOLIDAYS_DURING_2018,
+        ALL_HOLIDAYS_DURING_2018,
         Holiday.send(:loaded)[2018].keys
       )
     end
@@ -48,7 +57,16 @@ module SwedishHolidays
       i = 0
       Holiday.each do |holiday|
         assert_instance_of(Holiday, holiday)
-        assert_equal(HOLIDAYS_DURING_2018[i], holiday.yday)
+        assert_equal(REAL_HOLIDAYS_DURING_2018[i], holiday.yday)
+        i += 1
+      end
+    end
+
+    it '#each yields all holidays (including non-real) for a given year' do
+      i = 0
+      Holiday.each(2018, real: false) do |holiday|
+        assert_instance_of(Holiday, holiday)
+        assert_equal(ALL_HOLIDAYS_DURING_2018[i], holiday.yday)
         i += 1
       end
     end

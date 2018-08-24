@@ -12,19 +12,22 @@ module SwedishHolidays
     attr_reader :date, :name
 
     class << self
-      def holiday?(date)
-        !find(date).nil?
+      def holiday?(date, real: true)
+        !find(date, real: real).nil?
       end
 
-      def find(date)
+      def find(date, real: true)
         year = date.year
         load(year)
-        loaded[year][date.yday]
+        holiday = loaded[year][date.yday]
+        return holiday unless real
+        holiday&.real? ? holiday : nil
       end
 
-      def each(year = Date.today.year)
+      def each(year = Date.today.year, real: true)
         load(year)
         holidays = loaded[year.to_i].values
+        holidays.delete_if { |holiday| real && !holiday.real? }
         return holidays.each unless block_given?
         holidays.each { |holiday| yield holiday }
       end
@@ -58,6 +61,7 @@ module SwedishHolidays
     def initialize(attr)
       @date = Date.parse(attr[:date])
       @name = attr[:name]
+      @real = attr[:real_holiday]
     end
 
     delegate [:wday, :yday] => :date
@@ -68,6 +72,10 @@ module SwedishHolidays
 
     def to_s
       "#{date.strftime}: #{name}"
+    end
+
+    def real?
+      @real
     end
   end
 end

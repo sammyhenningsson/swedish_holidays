@@ -25,17 +25,17 @@ module SwedishHolidays
         end
       end
 
-      def enumerator(start = nil)
+      def enumerator(start, real)
         start_date = to_date(start)
-        Enumerator.new { |yielder| iterate(yielder, start_date) }
+        Enumerator.new { |yielder| iterate(yielder, start_date, real) }
       end
 
       private
 
-      def iterate(yielder, start_date)
+      def iterate(yielder, start_date, real)
         year = start_date.year
         loop do
-          Holiday.each(year) do |holiday|
+          Holiday.each(year, real: real) do |holiday|
             next if holiday.date < start_date
             yielder << holiday
           end

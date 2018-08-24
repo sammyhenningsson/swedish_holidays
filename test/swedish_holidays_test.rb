@@ -3,9 +3,10 @@ require 'test_helper'
 describe SwedishHolidays do
   let(:new_year) { Date.new(2018, 1, 1) }
   let(:non_holiday) { Date.new(2018, 1, 2) }
+  let(:easter_eve) { Date.new(2018, 3, 31) }
   let(:easter) { Date.new(2018, 4, 1) }
 
-  describe '::[]?' do
+  describe '::[]' do
     it "returns a holiday when date is a holiday" do
       holiday = SwedishHolidays[new_year]
       assert_instance_of(SwedishHolidays::Holiday, holiday)
@@ -16,13 +17,23 @@ describe SwedishHolidays do
       assert_nil SwedishHolidays[non_holiday]
     end
 
+    it "returns nil when date is not a real holiday" do
+      assert_nil SwedishHolidays[easter_eve]
+    end
+
+    it "returns a holiday when date is not a real holiday and real: false" do
+      holiday = SwedishHolidays[easter_eve, real: false]
+      assert_instance_of(SwedishHolidays::Holiday, holiday)
+      assert_equal(easter_eve, holiday.date)
+    end
+
     it "accepts an inclusive Range" do
       holidays = SwedishHolidays[new_year..easter]
       assert_equal(4, holidays.count)
       i = 0
       holidays.each do |holiday|
         assert_instance_of(SwedishHolidays::Holiday, holiday)
-        assert_equal(HOLIDAYS_DURING_2018[i], holiday.yday)
+        assert_equal(REAL_HOLIDAYS_DURING_2018[i], holiday.yday)
         i += 1
       end
     end
@@ -33,7 +44,18 @@ describe SwedishHolidays do
       i = 0
       holidays.each do |holiday|
         assert_instance_of(SwedishHolidays::Holiday, holiday)
-        assert_equal(HOLIDAYS_DURING_2018[i], holiday.yday)
+        assert_equal(REAL_HOLIDAYS_DURING_2018[i], holiday.yday)
+        i += 1
+      end
+    end
+
+    it "returns all real and non-real holidays within a Range" do
+      holidays = SwedishHolidays[new_year..easter, real: false]
+      assert_equal(5, holidays.count)
+      i = 0
+      holidays.each do |holiday|
+        assert_instance_of(SwedishHolidays::Holiday, holiday)
+        assert_equal(ALL_HOLIDAYS_DURING_2018[i], holiday.yday)
         i += 1
       end
     end
@@ -48,40 +70,52 @@ describe SwedishHolidays do
     end
 
     it "returns false when date is not a holiday" do
-      refute SwedishHolidays.holiday?(non_holiday)
+      refute SwedishHolidays.holiday?(easter_eve)
+    end
+
+    it "returns true when date is conciders to be a holiday and real: false" do
+      assert SwedishHolidays.holiday?(easter_eve, real: false)
     end
 
     it "accepts strings as input" do
       assert SwedishHolidays.holiday?('2018-01-01')
+      assert SwedishHolidays.holiday?('2018-03-31', real: false)
       refute SwedishHolidays.holiday?('2018-01-02')
     end
   end
 
   describe '::each' do
-    let(:holidays_during_second_half_of_2018) { [307, 359, 360] }
+    let(:real_holidays_during_second_half_of_2018) { [307, 359, 360] }
+    let(:all_holidays_during_second_half_of_2018) { [307, 358, 359, 360, 365] }
     let(:holidays_during_2019_januari) { [1, 6] }
 
     it 'returns an Enumerator::Lazy' do
       assert_instance_of(Enumerator::Lazy, SwedishHolidays.each)
     end
 
-    # it 'defaults start to today' do
-    #   Holiday.stub :find, 
-    #   SwedishHolidays.each(
-    # end
-
-    it "is possible to lazy iterate holidays with a start date" do
+    it 'is possible to lazy iterate holidays with a start date' do
       count = 0
+      expected = real_holidays_during_second_half_of_2018 + holidays_during_2019_januari
       assert_equal(
-        holidays_during_second_half_of_2018 + holidays_during_2019_januari,
-        SwedishHolidays.each(start: '2018-07-01').map { |h| count += 1; h.yday }.take(5).force
+        expected,
+        SwedishHolidays.each(start: '2018-07-01').map { |h| count += 1; h.yday }.take(expected.size).force
       )
-      assert_equal(5, count)
+      assert_equal(expected.size, count)
+    end
+
+    it 'is possible to lazy iterate holidays (including non-real) with a start date' do
+      count = 0
+      expected = all_holidays_during_second_half_of_2018 + [holidays_during_2019_januari.first]
+      assert_equal(
+        expected,
+        SwedishHolidays.each(start: '2018-07-01', real: false).map { |h| count += 1; h.yday }.take(expected.size).force
+      )
+      assert_equal(expected.size, count)
     end
   end
 
   it "stops iterating when last year has been iterated" do
     holidays_in_2045_to_2049 = 64 # Current data ends at year 2049
-    assert_equal(64, SwedishHolidays.each(start: '2045-01-01').count)
+    assert_equal(holidays_in_2045_to_2049, SwedishHolidays.each(start: '2045-01-01').count)
   end
 end
