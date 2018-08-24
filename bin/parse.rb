@@ -6,6 +6,9 @@ require 'yaml'
 class Parser
   class Error < StandardError; end
 
+  INPUT_FILES_DIR = File.expand_path('../../tmp_files', __FILE__)
+  OUTPUT_FILES_DIR = File.expand_path('../../data', __FILE__)
+
   def initialize(year)
     @year = year
     @headers = []
@@ -19,7 +22,7 @@ class Parser
   end
 
   def input_file
-    @input_file ||= File.join("tmp_files", @year)
+    @input_file ||= File.join(INPUT_FILES_DIR, @year)
   end
 
   def parse
@@ -58,9 +61,8 @@ class Parser
 
   def write
     raise Error, 'No data' if @data.empty?
-    output_dir = File.expand_path('../data', __dir__)
-    output_file = File.join(output_dir, @year)
-    Dir.mkdir(output_dir) unless Dir.exist? output_dir
+    output_file = File.join(OUTPUT_FILES_DIR, @year)
+    Dir.mkdir(OUTPUT_FILES_DIR) unless Dir.exist? OUTPUT_FILES_DIR
     File.open(output_file, 'w') do |file|
       file.write YAML.dump(@data)
     end
@@ -78,7 +80,8 @@ end
 
 if File.expand_path($PROGRAM_NAME) == File.expand_path(__FILE__)
   if ARGV[0] == 'all'
-    Dir['tmp_files/*'].each { |file| parse File.basename(file) }
+    dir_pattern = File.join(Parser::INPUT_FILES_DIR, '*')
+    Dir[dir_pattern].each { |file| parse File.basename(file) }
   else
     parse(ARGV[0])
   end
