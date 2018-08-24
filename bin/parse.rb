@@ -2,12 +2,31 @@
 
 require 'nokogiri'
 require 'yaml'
+require 'date'
 
 class Parser
   class Error < StandardError; end
 
-  INPUT_FILES_DIR = File.expand_path('../../tmp_files', __FILE__)
-  OUTPUT_FILES_DIR = File.expand_path('../../data', __FILE__)
+  INPUT_FILES_DIR = File.expand_path('../../tmp_files', __FILE__).freeze
+  OUTPUT_FILES_DIR = File.expand_path('../../data', __FILE__).freeze
+
+  WEEKDAYS = {
+    0 => 'Söndag',
+    1 => 'Måndag',
+    2 => 'Tisdag',
+    3 => 'Onsdag',
+    4 => 'Torsdag',
+    5 => 'Fredag',
+    6 => 'Lördag'
+  }.freeze
+
+  HEADER_TRANSLATIONS = {
+    datum: :date,
+    namn: :name,
+    vecka: :week,
+    veckodag: :weekday,
+    'dag på året': :yday
+  }.freeze
 
   def initialize(year)
     @year = year
@@ -31,6 +50,8 @@ class Parser
       add_headers find_headers(tr)
       add_data find_data(tr)
     end
+    add_eves
+    @data.sort_by! { |h| h[:yday].to_i }
   end
 
   def find_table_rows
@@ -47,16 +68,56 @@ class Parser
 
   def add_headers(node)
     return unless @headers.empty?
-    @headers = node.map { |th| th.content.strip.downcase.to_sym }
+    @headers = node.map do |th|
+      HEADER_TRANSLATIONS[th.content.strip.downcase.to_sym]
+    end.compact
   end
 
   def add_data(node)
-    return unless node
-    return if node.empty?
+    return if !node || node.empty?
     raise Error, 'Headers not found' if @headers.empty?
     hash = {}
-    node.zip(@headers) { |td, header| hash[header] = td.content.strip }
-    @data << hash unless hash.empty?
+    node.zip(@headers) do |td, header|
+      hash[header] = transform_value(header, td.content.strip)
+    end
+    @data << hash.merge(real_holiday: true) unless hash.empty?
+  end
+
+  def transform_value(key, value)
+    return 'Midsommardagen' if value == 'Midsommar'
+    return value.to_i if %i[week yday].include? key
+    value
+  end
+
+  def add_eves
+    %w[Påsk Midsommar Jul].each { |name| add_eve(name) }
+    add_new_years_eve
+  end
+
+  def add_eve(name)
+    hash = @data.find { |h| h[:name] == "#{name}dagen" } || return
+    date = Date.parse(hash[:date]) - 1
+    @data << {
+      date: date.strftime,
+      name: "#{name}afton",
+      week: date.cweek,
+      weekday: WEEKDAYS[date.wday],
+      yday: date.yday,
+      real_holiday: false
+    }
+  end
+
+  def add_new_years_eve
+    hash = @data.first || return
+    date = Date.new(Date.parse(hash[:date]).year, 12, 31)
+    @data << {
+      date: date.strftime,
+      name: 'Nyårsafton',
+      week: date.cweek,
+      weekday: WEEKDAYS[date.wday],
+      yday: date.yday,
+      real_holiday: false
+    }
   end
 
   def write

@@ -1,66 +1,103 @@
 ---
-- :datum: '2000-01-01'
-  :namn: Nyårsdagen
-  :vecka: '52'
-  :veckodag: Lördag
-  :dag på året: '1'
-- :datum: '2000-01-06'
-  :namn: Trettondedag jul
-  :vecka: '1'
-  :veckodag: Torsdag
-  :dag på året: '6'
-- :datum: '2000-04-21'
-  :namn: Långfredagen
-  :vecka: '16'
-  :veckodag: Fredag
-  :dag på året: '112'
-- :datum: '2000-04-23'
-  :namn: Påskdagen
-  :vecka: '16'
-  :veckodag: Söndag
-  :dag på året: '114'
-- :datum: '2000-04-24'
-  :namn: Annandag påsk
-  :vecka: '17'
-  :veckodag: Måndag
-  :dag på året: '115'
-- :datum: '2000-05-01'
-  :namn: Första maj
-  :vecka: '18'
-  :veckodag: Måndag
-  :dag på året: '122'
-- :datum: '2000-06-01'
-  :namn: Kristi himmelfärdsdag
-  :vecka: '22'
-  :veckodag: Torsdag
-  :dag på året: '153'
-- :datum: '2000-06-06'
-  :namn: Sveriges nationaldag
-  :vecka: '23'
-  :veckodag: Tisdag
-  :dag på året: '158'
-- :datum: '2000-06-11'
-  :namn: Pingstdagen
-  :vecka: '23'
-  :veckodag: Söndag
-  :dag på året: '163'
-- :datum: '2000-06-24'
-  :namn: Midsommar
-  :vecka: '25'
-  :veckodag: Lördag
-  :dag på året: '176'
-- :datum: '2000-11-04'
-  :namn: Alla helgons dag
-  :vecka: '44'
-  :veckodag: Lördag
-  :dag på året: '309'
-- :datum: '2000-12-25'
-  :namn: Juldagen
-  :vecka: '52'
-  :veckodag: Måndag
-  :dag på året: '360'
-- :datum: '2000-12-26'
-  :namn: Annandag jul
-  :vecka: '52'
-  :veckodag: Tisdag
-  :dag på året: '361'
+- :date: '2000-01-01'
+  :name: Nyårsdagen
+  :week: 52
+  :weekday: Lördag
+  :yday: 1
+  :real_holiday: true
+- :date: '2000-01-06'
+  :name: Trettondedag jul
+  :week: 1
+  :weekday: Torsdag
+  :yday: 6
+  :real_holiday: true
+- :date: '2000-04-21'
+  :name: Långfredagen
+  :week: 16
+  :weekday: Fredag
+  :yday: 112
+  :real_holiday: true
+- :date: '2000-04-22'
+  :name: Påskafton
+  :week: 16
+  :weekday: Lördag
+  :yday: 113
+  :real_holiday: false
+- :date: '2000-04-23'
+  :name: Påskdagen
+  :week: 16
+  :weekday: Söndag
+  :yday: 114
+  :real_holiday: true
+- :date: '2000-04-24'
+  :name: Annandag påsk
+  :week: 17
+  :weekday: Måndag
+  :yday: 115
+  :real_holiday: true
+- :date: '2000-05-01'
+  :name: Första maj
+  :week: 18
+  :weekday: Måndag
+  :yday: 122
+  :real_holiday: true
+- :date: '2000-06-01'
+  :name: Kristi himmelfärdsdag
+  :week: 22
+  :weekday: Torsdag
+  :yday: 153
+  :real_holiday: true
+- :date: '2000-06-06'
+  :name: Sveriges nationaldag
+  :week: 23
+  :weekday: Tisdag
+  :yday: 158
+  :real_holiday: true
+- :date: '2000-06-11'
+  :name: Pingstdagen
+  :week: 23
+  :weekday: Söndag
+  :yday: 163
+  :real_holiday: true
+- :date: '2000-06-23'
+  :name: Midsommarafton
+  :week: 25
+  :weekday: Fredag
+  :yday: 175
+  :real_holiday: false
+- :date: '2000-06-24'
+  :name: Midsommardagen
+  :week: 25
+  :weekday: Lördag
+  :yday: 176
+  :real_holiday: true
+- :date: '2000-11-04'
+  :name: Alla helgons dag
+  :week: 44
+  :weekday: Lördag
+  :yday: 309
+  :real_holiday: true
+- :date: '2000-12-24'
+  :name: Julafton
+  :week: 51
+  :weekday: Söndag
+  :yday: 359
+  :real_holiday: false
+- :date: '2000-12-25'
+  :name: Juldagen
+  :week: 52
+  :weekday: Måndag
+  :yday: 360
+  :real_holiday: true
+- :date: '2000-12-26'
+  :name: Annandag jul
+  :week: 52
+  :weekday: Tisdag
+  :yday: 361
+  :real_holiday: true
+- :date: '2000-12-31'
+  :name: Nyårsafton
+  :week: 52
+  :weekday: Söndag
+  :yday: 366
+  :real_holiday: false

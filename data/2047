@@ -1,66 +1,103 @@
 ---
-- :datum: '2047-01-01'
-  :namn: Nyårsdagen
-  :vecka: '1'
-  :veckodag: Tisdag
-  :dag på året: '1'
-- :datum: '2047-01-06'
-  :namn: Trettondedag jul
-  :vecka: '1'
-  :veckodag: Söndag
-  :dag på året: '6'
-- :datum: '2047-04-12'
-  :namn: Långfredagen
-  :vecka: '15'
-  :veckodag: Fredag
-  :dag på året: '102'
-- :datum: '2047-04-14'
-  :namn: Påskdagen
-  :vecka: '15'
-  :veckodag: Söndag
-  :dag på året: '104'
-- :datum: '2047-04-15'
-  :namn: Annandag påsk
-  :vecka: '16'
-  :veckodag: Måndag
-  :dag på året: '105'
-- :datum: '2047-05-01'
-  :namn: Första maj
-  :vecka: '18'
-  :veckodag: Onsdag
-  :dag på året: '121'
-- :datum: '2047-05-23'
-  :namn: Kristi himmelfärdsdag
-  :vecka: '21'
-  :veckodag: Torsdag
-  :dag på året: '143'
-- :datum: '2047-06-02'
-  :namn: Pingstdagen
-  :vecka: '22'
-  :veckodag: Söndag
-  :dag på året: '153'
-- :datum: '2047-06-06'
-  :namn: Sveriges nationaldag
-  :vecka: '23'
-  :veckodag: Torsdag
-  :dag på året: '157'
-- :datum: '2047-06-22'
-  :namn: Midsommar
-  :vecka: '25'
-  :veckodag: Lördag
-  :dag på året: '173'
-- :datum: '2047-11-02'
-  :namn: Alla helgons dag
-  :vecka: '44'
-  :veckodag: Lördag
-  :dag på året: '306'
-- :datum: '2047-12-25'
-  :namn: Juldagen
-  :vecka: '52'
-  :veckodag: Onsdag
-  :dag på året: '359'
-- :datum: '2047-12-26'
-  :namn: Annandag jul
-  :vecka: '52'
-  :veckodag: Torsdag
-  :dag på året: '360'
+- :date: '2047-01-01'
+  :name: Nyårsdagen
+  :week: 1
+  :weekday: Tisdag
+  :yday: 1
+  :real_holiday: true
+- :date: '2047-01-06'
+  :name: Trettondedag jul
+  :week: 1
+  :weekday: Söndag
+  :yday: 6
+  :real_holiday: true
+- :date: '2047-04-12'
+  :name: Långfredagen
+  :week: 15
+  :weekday: Fredag
+  :yday: 102
+  :real_holiday: true
+- :date: '2047-04-13'
+  :name: Påskafton
+  :week: 15
+  :weekday: Lördag
+  :yday: 103
+  :real_holiday: false
+- :date: '2047-04-14'
+  :name: Påskdagen
+  :week: 15
+  :weekday: Söndag
+  :yday: 104
+  :real_holiday: true
+- :date: '2047-04-15'
+  :name: Annandag påsk
+  :week: 16
+  :weekday: Måndag
+  :yday: 105
+  :real_holiday: true
+- :date: '2047-05-01'
+  :name: Första maj
+  :week: 18
+  :weekday: Onsdag
+  :yday: 121
+  :real_holiday: true
+- :date: '2047-05-23'
+  :name: Kristi himmelfärdsdag
+  :week: 21
+  :weekday: Torsdag
+  :yday: 143
+  :real_holiday: true
+- :date: '2047-06-02'
+  :name: Pingstdagen
+  :week: 22
+  :weekday: Söndag
+  :yday: 153
+  :real_holiday: true
+- :date: '2047-06-06'
+  :name: Sveriges nationaldag
+  :week: 23
+  :weekday: Torsdag
+  :yday: 157
+  :real_holiday: true
+- :date: '2047-06-21'
+  :name: Midsommarafton
+  :week: 25
+  :weekday: Fredag
+  :yday: 172
+  :real_holiday: false
+- :date: '2047-06-22'
+  :name: Midsommardagen
+  :week: 25
+  :weekday: Lördag
+  :yday: 173
+  :real_holiday: true
+- :date: '2047-11-02'
+  :name: Alla helgons dag
+  :week: 44
+  :weekday: Lördag
+  :yday: 306
+  :real_holiday: true
+- :date: '2047-12-24'
+  :name: Julafton
+  :week: 52
+  :weekday: Tisdag
+  :yday: 358
+  :real_holiday: false
+- :date: '2047-12-25'
+  :name: Juldagen
+  :week: 52
+  :weekday: Onsdag
+  :yday: 359
+  :real_holiday: true
+- :date: '2047-12-26'
+  :name: Annandag jul
+  :week: 52
+  :weekday: Torsdag
+  :yday: 360
+  :real_holiday: true
+- :date: '2047-12-31'
+  :name: Nyårsafton
+  :week: 1
+  :weekday: Tisdag
+  :yday: 365
+  :real_holiday: false

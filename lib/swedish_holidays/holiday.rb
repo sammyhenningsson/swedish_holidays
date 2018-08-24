@@ -56,8 +56,8 @@ module SwedishHolidays
     end
 
     def initialize(attr)
-      @date = Date.parse(attr[:datum])
-      @name = attr[:namn]
+      @date = Date.parse(attr[:date])
+      @name = attr[:name]
     end
 
     delegate [:wday, :yday] => :date
