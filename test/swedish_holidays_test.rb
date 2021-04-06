@@ -21,8 +21,8 @@ describe SwedishHolidays do
       assert_nil SwedishHolidays[easter_eve]
     end
 
-    it "returns a holiday when date is not a real holiday and real: false" do
-      holiday = SwedishHolidays[easter_eve, real: false]
+    it "returns a holiday when date is not a real holiday and include_informal: true" do
+      holiday = SwedishHolidays[easter_eve, include_informal: true]
       assert_instance_of(SwedishHolidays::Holiday, holiday)
       assert_equal(easter_eve, holiday.date)
     end
@@ -49,8 +49,8 @@ describe SwedishHolidays do
       end
     end
 
-    it "returns all real and non-real holidays within a Range" do
-      holidays = SwedishHolidays[new_year..easter, real: false]
+    it "returns all holidays (including informal) within a Range" do
+      holidays = SwedishHolidays[new_year..easter, include_informal: true]
       assert_equal(5, holidays.count)
       i = 0
       holidays.each do |holiday|
@@ -73,13 +73,13 @@ describe SwedishHolidays do
       refute SwedishHolidays.holiday?(easter_eve)
     end
 
-    it "returns true when date is conciders to be a holiday and real: false" do
-      assert SwedishHolidays.holiday?(easter_eve, real: false)
+    it "returns true when date is conciders to be a holiday and include_informal: true" do
+      assert SwedishHolidays.holiday?(easter_eve, include_informal: true)
     end
 
     it "accepts strings as input" do
       assert SwedishHolidays.holiday?('2018-01-01')
-      assert SwedishHolidays.holiday?('2018-03-31', real: false)
+      assert SwedishHolidays.holiday?('2018-03-31', include_informal: true)
       refute SwedishHolidays.holiday?('2018-01-02')
     end
   end
@@ -103,12 +103,12 @@ describe SwedishHolidays do
       assert_equal(expected.size, count)
     end
 
-    it 'is possible to lazy iterate holidays (including non-real) with a start date' do
+    it 'is possible to lazy iterate holidays (including informal) with a start date' do
       count = 0
       expected = all_holidays_during_second_half_of_2018 + [holidays_during_2019_januari.first]
       assert_equal(
         expected,
-        SwedishHolidays.each(start: '2018-07-01', real: false).map { |h| count += 1; h.yday }.take(expected.size).force
+        SwedishHolidays.each(start: '2018-07-01', include_informal: true).map { |h| count += 1; h.yday }.take(expected.size).force
       )
       assert_equal(expected.size, count)
     end

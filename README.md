@@ -48,7 +48,7 @@ The class `SwedishHolidays::Holiday` respond to `:date`, `:name`, `:wday`, `:yda
 
 
 # Caveat
-Even though påskafton, midsommarafton, julafton and nyårsafton are considered to be holidays (most people do not work those days) they are actually not really holidays per definition. If you would like to be able to know if a certain date is a swedish holiday (which is kind of asumed if your looking into this library), then you probably aslo want to include these 'non-real' holidays. To do that pass in the keyword argument `real` with a value of `false` to the methods in the examples above. Like:
+Even though påskafton, midsommarafton, julafton and nyårsafton are considered to be holidays (most people do not work those days) they are actually not really holidays per definition. If you would like to be able to know if a certain date is a swedish holiday (which is kind of asumed if your looking into this library), then you probably also want to include these 'informal' holidays. To do that pass in the keyword argument `include_informal` with a value of `true` to the methods in the examples above. Like:
 
 ```
 require 'date'
@@ -57,17 +57,17 @@ require 'swedish_holidays'
 easter_eve = Date.new(2018, 3, 31)
 
 SwedishHolidays.holiday? easter_eve # => false
-SwedishHolidays.holiday?(easter_eve, real: false) # => true
+SwedishHolidays.holiday?(easter_eve, include_informal: true) # => true
 
 SwedishHolidays[easter_eve] # => nil
-SwedishHolidays[easter_eve, real: false] # => #<SwedishHolidays::Holiday:0x00005616a2fabd88 @date=#<Date: 2018-03-31 ((2458209j,0s,0n),+0s,2299161j)>, @name="Påskafton", @real=false>
+SwedishHolidays[easter_eve, include_informal: true] # => #<SwedishHolidays::Holiday:0x00005616a2fabd88 @date=#<Date: 2018-03-31 ((2458209j,0s,0n),+0s,2299161j)>, @name="Påskafton", @informal=true>
 
 # Using a range
 SwedishHolidays['2018-01-01'..'2018-04-01'].count # => 4
-SwedishHolidays['2018-01-01'..'2018-04-01', real: false].count # => 5
+SwedishHolidays['2018-01-01'..'2018-04-01', include_informal: true].count # => 5
 
 
 SwedishHolidays.each(start: '2018-01-01').map(&:name).take(5).to_a # => ["Nyårsdagen", "Trettondedag jul", "Långfredagen", "Påskdagen", "Annandag påsk"]
-SwedishHolidays.each(start: '2018-01-01', real: false).map(&:name).take(5).to_a # => ["Nyårsdagen", "Trettondedag jul", "Långfredagen", "Påskafton", "Påskdagen"]
+SwedishHolidays.each(start: '2018-01-01', include_informal: true).map(&:name).take(5).to_a # => ["Nyårsdagen", "Trettondedag jul", "Långfredagen", "Påskafton", "Påskdagen"]
 
 ```

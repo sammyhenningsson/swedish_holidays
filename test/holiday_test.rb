@@ -15,12 +15,12 @@ module SwedishHolidays
       assert_equal(false, Holiday.holiday?(easter_eve))
     end
 
-    it '#holiday? returns true when date is considered a holiday and real: false' do
-      assert_equal(true, Holiday.holiday?(easter_eve, real: false))
+    it '#holiday? returns true when date is considered a holiday and include_informal: true' do
+      assert_equal(true, Holiday.holiday?(easter_eve, include_informal: true))
     end
 
-    it '#holiday? returns false when date is not a holiday and real: false' do
-      assert_equal(false, Holiday.holiday?(non_holiday, real: false))
+    it '#holiday? returns false when date is not a holiday and include_informal: true' do
+      assert_equal(false, Holiday.holiday?(non_holiday, include_informal: true))
     end
 
     it('loads all holidays for the given year') do
@@ -55,16 +55,16 @@ module SwedishHolidays
 
     it '#each yields all holidays for a given year' do
       i = 0
-      Holiday.each do |holiday|
+      Holiday.each("2018") do |holiday|
         assert_instance_of(Holiday, holiday)
         assert_equal(REAL_HOLIDAYS_DURING_2018[i], holiday.yday)
         i += 1
       end
     end
 
-    it '#each yields all holidays (including non-real) for a given year' do
+    it '#each yields all holidays (including informal) for a given year' do
       i = 0
-      Holiday.each(2018, real: false) do |holiday|
+      Holiday.each(2018, include_informal: true) do |holiday|
         assert_instance_of(Holiday, holiday)
         assert_equal(ALL_HOLIDAYS_DURING_2018[i], holiday.yday)
         i += 1

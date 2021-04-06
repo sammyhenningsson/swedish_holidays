@@ -12,27 +12,35 @@ module SwedishHolidays
     attr_reader :date, :name
 
     class << self
-      def holiday?(date, real: true)
-        !find(date, real: real).nil?
+      def holiday?(date, real: no_arg, include_informal: no_arg)
+        informal = Utils.include_informal?(real, include_informal)
+        !find(date, include_informal: informal).nil?
       end
 
-      def find(date, real: true)
+      def find(date, real: no_arg, include_informal: no_arg)
+        informal = Utils.include_informal?(real, include_informal)
         year = date.year
         load(year)
         holiday = loaded[year][date.yday]
-        return holiday unless real
-        holiday&.real? ? holiday : nil
+        return holiday if informal
+        return holiday if holiday&.real?
       end
 
-      def each(year = Date.today.year, real: true)
+      def each(year = Date.today.year, real: no_arg, include_informal: no_arg, &block)
+        informal = Utils.include_informal?(real, include_informal)
         load(year)
         holidays = loaded[year.to_i].values
-        holidays.delete_if { |holiday| real && !holiday.real? }
-        return holidays.each unless block_given?
-        holidays.each { |holiday| yield holiday }
+        holidays.delete_if { |holiday| !informal && holiday.informal? }
+        return holidays.each(&block) if block
+
+        holidays.each
       end
 
       private
+
+      def no_arg
+        Utils::VALUE_NOT_GIVEN
+      end
 
       def file(year)
         File.join(DATA_DIR, year.to_s)
@@ -61,7 +69,7 @@ module SwedishHolidays
     def initialize(attr)
       @date = Date.parse(attr[:date])
       @name = attr[:name]
-      @real = attr[:real_holiday]
+      @informal = attr.fetch(:informal_holiday) { !attr[:real_holiday] }
     end
 
     delegate [:wday, :yday] => :date
@@ -75,7 +83,11 @@ module SwedishHolidays
     end
 
     def real?
-      @real
+      !informal?
+    end
+
+    def informal?
+      @informal
     end
   end
 end
