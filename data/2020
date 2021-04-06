@@ -1,103 +1,103 @@
 ---
-- :date: '2018-01-01'
+- :date: '2020-01-01'
   :name: Nyårsdagen
   :week: 1
-  :weekday: Måndag
+  :weekday: Onsdag
   :yday: 1
   :real_holiday: true
-- :date: '2018-01-06'
+- :date: '2020-01-06'
   :name: Trettondedag jul
-  :week: 1
-  :weekday: Lördag
+  :week: 2
+  :weekday: Måndag
   :yday: 6
   :real_holiday: true
-- :date: '2018-03-30'
+- :date: '2020-04-10'
   :name: Långfredagen
-  :week: 13
+  :week: 15
   :weekday: Fredag
-  :yday: 89
+  :yday: 101
   :real_holiday: true
-- :date: '2018-03-31'
+- :date: '2020-04-11'
   :name: Påskafton
-  :week: 13
+  :week: 15
   :weekday: Lördag
-  :yday: 90
+  :yday: 102
   :real_holiday: false
-- :date: '2018-04-01'
+- :date: '2020-04-12'
   :name: Påskdagen
-  :week: 13
+  :week: 15
   :weekday: Söndag
-  :yday: 91
+  :yday: 103
   :real_holiday: true
-- :date: '2018-04-02'
+- :date: '2020-04-13'
   :name: Annandag påsk
-  :week: 14
+  :week: 16
   :weekday: Måndag
-  :yday: 92
+  :yday: 104
   :real_holiday: true
-- :date: '2018-05-01'
+- :date: '2020-05-01'
   :name: Första maj
   :week: 18
-  :weekday: Tisdag
-  :yday: 121
+  :weekday: Fredag
+  :yday: 122
   :real_holiday: true
-- :date: '2018-05-10'
+- :date: '2020-05-21'
   :name: Kristi himmelfärdsdag
-  :week: 19
+  :week: 21
   :weekday: Torsdag
-  :yday: 130
+  :yday: 142
   :real_holiday: true
-- :date: '2018-05-20'
+- :date: '2020-05-31'
   :name: Pingstdagen
-  :week: 20
+  :week: 22
   :weekday: Söndag
-  :yday: 140
+  :yday: 152
   :real_holiday: true
-- :date: '2018-06-06'
+- :date: '2020-06-06'
   :name: Sveriges nationaldag
   :week: 23
-  :weekday: Onsdag
-  :yday: 157
+  :weekday: Lördag
+  :yday: 158
   :real_holiday: true
-- :date: '2018-06-22'
+- :date: '2020-06-19'
   :name: Midsommarafton
   :week: 25
   :weekday: Fredag
-  :yday: 173
+  :yday: 171
   :real_holiday: false
-- :date: '2018-06-23'
+- :date: '2020-06-20'
   :name: Midsommardagen
   :week: 25
   :weekday: Lördag
-  :yday: 174
+  :yday: 172
   :real_holiday: true
-- :date: '2018-11-03'
+- :date: '2020-10-31'
   :name: Alla helgons dag
   :week: 44
   :weekday: Lördag
-  :yday: 307
+  :yday: 305
   :real_holiday: true
-- :date: '2018-12-24'
+- :date: '2020-12-24'
   :name: Julafton
   :week: 52
-  :weekday: Måndag
-  :yday: 358
+  :weekday: Torsdag
+  :yday: 359
   :real_holiday: false
-- :date: '2018-12-25'
+- :date: '2020-12-25'
   :name: Juldagen
   :week: 52
-  :weekday: Tisdag
-  :yday: 359
-  :real_holiday: true
-- :date: '2018-12-26'
-  :name: Annandag jul
-  :week: 52
-  :weekday: Onsdag
+  :weekday: Fredag
   :yday: 360
   :real_holiday: true
-- :date: '2018-12-31'
+- :date: '2020-12-26'
+  :name: Annandag jul
+  :week: 52
+  :weekday: Lördag
+  :yday: 361
+  :real_holiday: true
+- :date: '2020-12-31'
   :name: Nyårsafton
-  :week: 1
-  :weekday: Måndag
-  :yday: 365
+  :week: 53
+  :weekday: Torsdag
+  :yday: 366
   :real_holiday: false

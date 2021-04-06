@@ -1,103 +1,103 @@
 ---
-- :date: '2018-01-01'
+- :date: '2040-01-01'
   :name: Nyårsdagen
-  :week: 1
-  :weekday: Måndag
+  :week: 52
+  :weekday: Söndag
   :yday: 1
   :real_holiday: true
-- :date: '2018-01-06'
+- :date: '2040-01-06'
   :name: Trettondedag jul
   :week: 1
-  :weekday: Lördag
+  :weekday: Fredag
   :yday: 6
   :real_holiday: true
-- :date: '2018-03-30'
+- :date: '2040-03-30'
   :name: Långfredagen
   :week: 13
   :weekday: Fredag
-  :yday: 89
+  :yday: 90
   :real_holiday: true
-- :date: '2018-03-31'
+- :date: '2040-03-31'
   :name: Påskafton
   :week: 13
   :weekday: Lördag
-  :yday: 90
+  :yday: 91
   :real_holiday: false
-- :date: '2018-04-01'
+- :date: '2040-04-01'
   :name: Påskdagen
   :week: 13
   :weekday: Söndag
-  :yday: 91
+  :yday: 92
   :real_holiday: true
-- :date: '2018-04-02'
+- :date: '2040-04-02'
   :name: Annandag påsk
   :week: 14
   :weekday: Måndag
-  :yday: 92
+  :yday: 93
   :real_holiday: true
-- :date: '2018-05-01'
+- :date: '2040-05-01'
   :name: Första maj
   :week: 18
   :weekday: Tisdag
-  :yday: 121
+  :yday: 122
   :real_holiday: true
-- :date: '2018-05-10'
+- :date: '2040-05-10'
   :name: Kristi himmelfärdsdag
   :week: 19
   :weekday: Torsdag
-  :yday: 130
+  :yday: 131
   :real_holiday: true
-- :date: '2018-05-20'
+- :date: '2040-05-20'
   :name: Pingstdagen
   :week: 20
   :weekday: Söndag
-  :yday: 140
+  :yday: 141
   :real_holiday: true
-- :date: '2018-06-06'
+- :date: '2040-06-06'
   :name: Sveriges nationaldag
   :week: 23
   :weekday: Onsdag
-  :yday: 157
+  :yday: 158
   :real_holiday: true
-- :date: '2018-06-22'
+- :date: '2040-06-22'
   :name: Midsommarafton
   :week: 25
   :weekday: Fredag
-  :yday: 173
+  :yday: 174
   :real_holiday: false
-- :date: '2018-06-23'
+- :date: '2040-06-23'
   :name: Midsommardagen
   :week: 25
   :weekday: Lördag
-  :yday: 174
+  :yday: 175
   :real_holiday: true
-- :date: '2018-11-03'
+- :date: '2040-11-03'
   :name: Alla helgons dag
   :week: 44
   :weekday: Lördag
-  :yday: 307
+  :yday: 308
   :real_holiday: true
-- :date: '2018-12-24'
+- :date: '2040-12-24'
   :name: Julafton
   :week: 52
   :weekday: Måndag
-  :yday: 358
+  :yday: 359
   :real_holiday: false
-- :date: '2018-12-25'
+- :date: '2040-12-25'
   :name: Juldagen
   :week: 52
   :weekday: Tisdag
-  :yday: 359
+  :yday: 360
   :real_holiday: true
-- :date: '2018-12-26'
+- :date: '2040-12-26'
   :name: Annandag jul
   :week: 52
   :weekday: Onsdag
-  :yday: 360
+  :yday: 361
   :real_holiday: true
-- :date: '2018-12-31'
+- :date: '2040-12-31'
   :name: Nyårsafton
   :week: 1
   :weekday: Måndag
-  :yday: 365
+  :yday: 366
   :real_holiday: false

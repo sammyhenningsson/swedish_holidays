@@ -1,103 +1,103 @@
 ---
-- :date: '2018-01-01'
+- :date: '2034-01-01'
   :name: Nyårsdagen
-  :week: 1
-  :weekday: Måndag
+  :week: 52
+  :weekday: Söndag
   :yday: 1
   :real_holiday: true
-- :date: '2018-01-06'
+- :date: '2034-01-06'
   :name: Trettondedag jul
   :week: 1
-  :weekday: Lördag
+  :weekday: Fredag
   :yday: 6
   :real_holiday: true
-- :date: '2018-03-30'
+- :date: '2034-04-07'
   :name: Långfredagen
-  :week: 13
-  :weekday: Fredag
-  :yday: 89
-  :real_holiday: true
-- :date: '2018-03-31'
-  :name: Påskafton
-  :week: 13
-  :weekday: Lördag
-  :yday: 90
-  :real_holiday: false
-- :date: '2018-04-01'
-  :name: Påskdagen
-  :week: 13
-  :weekday: Söndag
-  :yday: 91
-  :real_holiday: true
-- :date: '2018-04-02'
-  :name: Annandag påsk
   :week: 14
-  :weekday: Måndag
-  :yday: 92
+  :weekday: Fredag
+  :yday: 97
   :real_holiday: true
-- :date: '2018-05-01'
+- :date: '2034-04-08'
+  :name: Påskafton
+  :week: 14
+  :weekday: Lördag
+  :yday: 98
+  :real_holiday: false
+- :date: '2034-04-09'
+  :name: Påskdagen
+  :week: 14
+  :weekday: Söndag
+  :yday: 99
+  :real_holiday: true
+- :date: '2034-04-10'
+  :name: Annandag påsk
+  :week: 15
+  :weekday: Måndag
+  :yday: 100
+  :real_holiday: true
+- :date: '2034-05-01'
   :name: Första maj
   :week: 18
-  :weekday: Tisdag
+  :weekday: Måndag
   :yday: 121
   :real_holiday: true
-- :date: '2018-05-10'
+- :date: '2034-05-18'
   :name: Kristi himmelfärdsdag
-  :week: 19
-  :weekday: Torsdag
-  :yday: 130
-  :real_holiday: true
-- :date: '2018-05-20'
-  :name: Pingstdagen
   :week: 20
-  :weekday: Söndag
-  :yday: 140
+  :weekday: Torsdag
+  :yday: 138
   :real_holiday: true
-- :date: '2018-06-06'
+- :date: '2034-05-28'
+  :name: Pingstdagen
+  :week: 21
+  :weekday: Söndag
+  :yday: 148
+  :real_holiday: true
+- :date: '2034-06-06'
   :name: Sveriges nationaldag
   :week: 23
-  :weekday: Onsdag
+  :weekday: Tisdag
   :yday: 157
   :real_holiday: true
-- :date: '2018-06-22'
+- :date: '2034-06-23'
   :name: Midsommarafton
   :week: 25
   :weekday: Fredag
-  :yday: 173
+  :yday: 174
   :real_holiday: false
-- :date: '2018-06-23'
+- :date: '2034-06-24'
   :name: Midsommardagen
   :week: 25
   :weekday: Lördag
-  :yday: 174
+  :yday: 175
   :real_holiday: true
-- :date: '2018-11-03'
+- :date: '2034-11-04'
   :name: Alla helgons dag
   :week: 44
   :weekday: Lördag
-  :yday: 307
+  :yday: 308
   :real_holiday: true
-- :date: '2018-12-24'
+- :date: '2034-12-24'
   :name: Julafton
-  :week: 52
-  :weekday: Måndag
+  :week: 51
+  :weekday: Söndag
   :yday: 358
   :real_holiday: false
-- :date: '2018-12-25'
+- :date: '2034-12-25'
   :name: Juldagen
   :week: 52
-  :weekday: Tisdag
+  :weekday: Måndag
   :yday: 359
   :real_holiday: true
-- :date: '2018-12-26'
+- :date: '2034-12-26'
   :name: Annandag jul
   :week: 52
-  :weekday: Onsdag
+  :weekday: Tisdag
   :yday: 360
   :real_holiday: true
-- :date: '2018-12-31'
+- :date: '2034-12-31'
   :name: Nyårsafton
-  :week: 1
-  :weekday: Måndag
+  :week: 52
+  :weekday: Söndag
   :yday: 365
   :real_holiday: false
