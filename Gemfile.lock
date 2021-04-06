@@ -1,23 +1,25 @@
 PATH
   remote: .
   specs:
-    swedish_holidays (0.1.0)
+    swedish_holidays (1.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.4)
-      mini_portile2 (~> 2.3.0)
-    rake (12.3.1)
+    mini_portile2 (2.5.0)
+    nokogiri (1.11.2)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    racc (1.5.2)
+    rake (12.3.3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (~> 1.8)
-  rake (~> 12.0)
+  nokogiri (~> 1.11.0)
+  rake (~> 12.3.3)
   swedish_holidays!
 
 BUNDLED WITH
-   1.16.4
+   2.1.4

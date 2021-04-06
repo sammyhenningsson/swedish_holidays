@@ -13,6 +13,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib', 'data']
 
   gem.required_ruby_version = '>= 2.3'
-  gem.add_development_dependency 'rake', '~> 12.0'
-  gem.add_development_dependency 'nokogiri', '~> 1.8'
+  gem.add_development_dependency 'rake', '~> 12.3.3'
+  gem.add_development_dependency 'nokogiri', '~> 1.11.0'
 end
