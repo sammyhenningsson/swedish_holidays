@@ -3,7 +3,6 @@ require 'swedish_holidays/holiday'
 
 module SwedishHolidays
   module Utils
-    puts "loading Utils.."
     VALUE_NOT_GIVEN = Object.new
 
     class << self
