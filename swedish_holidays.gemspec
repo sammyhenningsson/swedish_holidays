@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |gem|
   gem.name        = 'swedish_holidays'
-  gem.version     = '2.0.0'
+  gem.version     = '2.0.1'
   gem.summary     = "Swedish holidays"
   gem.description = "Check if a date is a swedish holiday"
   gem.authors     = ["Sammy Henningsson"] 

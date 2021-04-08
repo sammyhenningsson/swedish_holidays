@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    swedish_holidays (2.0.0)
+    swedish_holidays (2.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -22,4 +22,4 @@ DEPENDENCIES
   swedish_holidays!
 
 BUNDLED WITH
-   2.1.4
+   2.2.14
