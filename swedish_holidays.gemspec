@@ -14,5 +14,5 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 2.3'
   gem.add_development_dependency 'rake', '~> 12.3.3'
-  gem.add_development_dependency 'nokogiri', '~> 1.11.0'
+  gem.add_development_dependency 'nokogiri', '~> 1.13.4'
 end
